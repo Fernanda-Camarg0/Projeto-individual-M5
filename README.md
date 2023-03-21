@@ -16,12 +16,15 @@ Vamos usar o Node para montar um código que vai receber uma lista de propriedad
 ## Instalação
 
 Primeiro abra seu terminal(vscode,node.js...) e selecione a pasta onde você quer clonar o repositório, em seguida execute o comando:
+
 $ git clone https://github.com/Fernanda-Camarg0/Projeto-M5
 
 Agora instale as bibliotecas, ainda no seu terminal digite:
+
 npm i readline-sync chalk  ou  npm install readline-sync chalk
 
 Verifique se tem a dependencia: "type": "module"  no package.json, se não houver coloque se não prossiga.
 
 E então inicie o projeto com:
+
 node ./m5az.js
