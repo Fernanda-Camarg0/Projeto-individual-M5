@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 let Properties = [];
 
 function reqProperty() {
-    rl.question(`${chalk.yellow('Digite suas')} ${chalk.bold.bgGreen('Propriedades CSS')} ${chalk.yellow('e digite')} ${chalk.bold.bgRed('*sair*')} ${chalk.yellow('quando finalizar, para gerar a sua lista:')}`, (res) =>  {
+    rl.question(`${chalk.yellow('🌸 Digite suas')} ${chalk.bold.bgGreen('Propriedades CSS')} ${chalk.yellow('e digite')} ${chalk.bold.bgRed('*sair*')} ${chalk.yellow('quando finalizar, para gerar a sua lista:🌸 ')}`, (res) =>  {
     if (res === 'sair') {
       printProperties();
       rl.close();
@@ -21,7 +21,7 @@ function reqProperty() {
 }
 
 function printProperties() {
-  console.log(chalk.magenta('Lista de propriedades do CSS organizadas de A-Z:'));
+  console.log(chalk.magenta('🌺 Lista de propriedades do CSS organizadas de A-Z:🌺 '));
   Properties.sort().forEach(property => {
     console.log(chalk.cyan(property));
   });
